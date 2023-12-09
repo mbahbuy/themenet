@@ -1,0 +1,1246 @@
+CRITICAL - 2023-11-20 06:23:32 --> Undefined property: CodeIgniter\View\View::$meta
+in APPPATH/Views/public/template1/read-news.php on line 25.
+ 1 APPPATH/Views/public/template1/read-news.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 06:23:42 --> Undefined property: CodeIgniter\View\View::$meta
+in APPPATH/Views/public/template1/read-news.php on line 25.
+ 1 APPPATH/Views/public/template1/read-news.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 06:23:55 --> Undefined variable $m
+in APPPATH/Views/public/template1/read-news.php on line 25.
+ 1 APPPATH/Views/public/template1/read-news.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 06:28:12 --> Undefined variable $dataArticle
+in APPPATH/Views/public/template1/read-news.php on line 25.
+ 1 APPPATH/Views/public/template1/read-news.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 06:28:34 --> Undefined variable $data
+in APPPATH/Views/public/template1/read-news.php on line 25.
+ 1 APPPATH/Views/public/template1/read-news.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 06:31:01 --> syntax error, unexpected token "<"
+in APPPATH/Views/public/template1/read-news.php on line 26.
+ 1 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/frontEnd/Home.php(78): view()
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 06:31:23 --> Undefined variable $dataArticle
+in APPPATH/Views/public/template1/read-news.php on line 25.
+ 1 APPPATH/Views/public/template1/read-news.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 06:32:07 --> Cannot access offset of type string on string
+in APPPATH/Views/public/template1/read-news.php on line 26.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/frontEnd/Home.php(78): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 06:34:00 --> Undefined property: CodeIgniter\View\View::$article
+in APPPATH/Views/public/template1/read-news.php on line 25.
+ 1 APPPATH/Views/public/template1/read-news.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:00:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+in APPPATH/Controllers/frontEnd/Home.php on line 88.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:00:44 --> Call to a member function paginate() on array
+in APPPATH/Controllers/frontEnd/Home.php on line 88.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:01:01 --> Call to a member function paginate() on array
+in APPPATH/Controllers/frontEnd/Home.php on line 88.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:05:41 --> Undefined variable $pager
+in APPPATH/Views/public/template1/categories.php on line 24.
+ 1 APPPATH/Views/public/template1/categories.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(101): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:07:33 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH/Controllers/frontEnd/Home.php on line 92.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:07:40 --> Call to a member function links() on null
+in APPPATH/Views/public/template1/categories.php on line 24.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/frontEnd/Home.php(102): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:08:07 --> Call to a member function paginate() on array
+in APPPATH/Controllers/frontEnd/Home.php on line 91.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:09:27 --> Undefined variable $nama_kategor
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 APPPATH/Controllers/frontEnd/Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:09:30 --> Call to a member function links() on null
+in APPPATH/Views/public/template1/categories.php on line 24.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/frontEnd/Home.php(102): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:09:39 --> Undefined variable $pager
+in APPPATH/Views/public/template1/categories.php on line 24.
+ 1 APPPATH/Views/public/template1/categories.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(102): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:18:12 --> syntax error, unexpected single-quoted string "pager", expecting "]"
+in APPPATH/Controllers/frontEnd/Home.php on line 90.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:18:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:19:59 --> syntax error, unexpected token "return"
+in APPPATH/Models/Title.php on line 164.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/frontEnd/Home.php(14): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:20:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Models/Title.php on line 163.
+ 1 APPPATH/Controllers/frontEnd/Home.php(89): App\Models\Title->getJudulByCategorySelected()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:20:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Models/Title.php on line 161.
+ 1 APPPATH/Controllers/frontEnd/Home.php(89): App\Models\Title->getJudulByCategorySelected()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:21:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Models/Title.php on line 161.
+ 1 APPPATH/Controllers/frontEnd/Home.php(89): App\Models\Title->getJudulByCategorySelected()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:23:07 --> syntax error, unexpected variable "$pager", expecting "function" or "const"
+in APPPATH/Controllers/frontEnd/Home.php on line 11.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:23:24 --> Constant expression contains invalid operations
+in APPPATH/Controllers/frontEnd/Home.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-20 07:24:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Models/Title.php on line 161.
+ 1 APPPATH/Controllers/frontEnd/Home.php(90): App\Models\Title->getJudulByCategorySelected()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:26:11 --> syntax error, unexpected fully qualified name "\Config\Services", expecting identifier or variable or "{" or "$"
+in APPPATH/Controllers/frontEnd/Home.php on line 90.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:26:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Models/Title.php on line 161.
+ 1 APPPATH/Controllers/frontEnd/Home.php(89): App\Models\Title->getJudulByCategorySelected()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:32:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:34:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Controllers/frontEnd/Home.php on line 91.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:35:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Controllers/frontEnd/Home.php on line 91.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:37:23 --> syntax error, unexpected token "=>"
+in APPPATH/Controllers/frontEnd/Home.php on line 88.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:37:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:38:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:39:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Models/Title.php on line 164.
+ 1 APPPATH/Controllers/frontEnd/Home.php(89): App\Models\Title->getJudulByCategorySelected()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:39:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Models/Title.php on line 164.
+ 1 APPPATH/Controllers/frontEnd/Home.php(89): App\Models\Title->getJudulByCategorySelected()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:39:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Models/Title.php on line 163.
+ 1 APPPATH/Controllers/frontEnd/Home.php(89): App\Models\Title->getJudulByCategorySelected()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:39:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Models/Title.php on line 163.
+ 1 APPPATH/Controllers/frontEnd/Home.php(89): App\Models\Title->getJudulByCategorySelected()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:41:18 --> syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+in APPPATH/Models/Title.php on line 162.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/frontEnd/Home.php(14): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:41:25 --> Undefined array key "picture"
+in APPPATH/Views/public/template1/categories.php on line 19.
+ 1 APPPATH/Views/public/template1/categories.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(102): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:41:42 --> Undefined array key "picture"
+in APPPATH/Views/public/template1/categories.php on line 19.
+ 1 APPPATH/Views/public/template1/categories.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(102): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:41:45 --> Undefined array key "picture"
+in APPPATH/Views/public/template1/categories.php on line 19.
+ 1 APPPATH/Views/public/template1/categories.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(102): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:41:49 --> Undefined array key "picture"
+in APPPATH/Views/public/template1/categories.php on line 19.
+ 1 APPPATH/Views/public/template1/categories.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(102): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:41:56 --> Cannot use object of type mysqli as array
+in APPPATH/Views/public/template1/categories.php on line 19.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/frontEnd/Home.php(102): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:42:01 --> Cannot use object of type mysqli as array
+in APPPATH/Views/public/template1/categories.php on line 19.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/frontEnd/Home.php(102): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:42:22 --> Call to a member function links() on null
+in APPPATH/Views/public/template1/categories.php on line 24.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/frontEnd/Home.php(102): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:42:42 --> Cannot use object of type mysqli as array
+in APPPATH/Views/public/template1/categories.php on line 19.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/frontEnd/Home.php(102): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:43:03 --> Undefined variable $pager
+in APPPATH/Views/public/template1/categories.php on line 24.
+ 1 APPPATH/Views/public/template1/categories.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(102): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:43:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:44:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:44:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:44:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:45:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:45:54 --> Call to a member function getJudulByCategorySelected() on array
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:46:02 --> Cannot use object of type mysqli as array
+in APPPATH/Views/public/template1/categories.php on line 19.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/frontEnd/Home.php(102): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:46:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:47:20 --> Undefined array key "picture"
+in APPPATH/Views/public/template1/categories.php on line 19.
+ 1 APPPATH/Views/public/template1/categories.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(102): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:47:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Models/Title.php on line 163.
+ 1 APPPATH/Controllers/frontEnd/Home.php(89): App\Models\Title->getJudulByCategorySelected()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:50:28 --> syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:50:41 --> syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:50:48 --> syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:51:13 --> Call to undefined function App\Controllers\frontEnd\getJudulByCategorySelected()
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:51:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 07:52:03 --> Call to a member function paginate() on array
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 08:02:51 --> syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 08:03:02 --> syntax error, unexpected identifier "getJudulByCategorySelected", expecting "]"
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 08:03:16 --> Call to a member function getJudulByCategorySelected() on array
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 08:03:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 08:04:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 08:08:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+in APPPATH/Controllers/frontEnd/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 08:20:48 --> Undefined variable $pager
+in APPPATH/Controllers/frontEnd/Home.php on line 90.
+ 1 APPPATH/Controllers/frontEnd/Home.php(90): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 08:45:03 --> Undefined variable $pager
+in APPPATH/Views/public/template1/categories.php on line 24.
+ 1 APPPATH/Views/public/template1/categories.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(111): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 08:47:22 --> Call to a member function setSurroundCount() on string
+in APPPATH/Views/public/template1/categories.php on line 24.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/frontEnd/Home.php(111): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 08:52:24 --> Undefined variable $pager_links
+in APPPATH/Views/public/template1/categories.php on line 25.
+ 1 APPPATH/Views/public/template1/categories.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(103): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 08:52:38 --> Object of class CodeIgniter\Pager\Pager could not be converted to string
+in APPPATH/Views/public/template1/categories.php on line 25.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/frontEnd/Home.php(103): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 09:27:44 --> Too few arguments to function App\Controllers\frontEnd\Home::categories(), 0 passed in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH/Controllers/frontEnd/Home.php on line 83.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 09:36:20 --> Undefined array key "nm_kt"
+in APPPATH/Views/public/template1/categories.php on line 97.
+ 1 APPPATH/Views/public/template1/categories.php(97): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(103): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:31:37 --> Call to a member function findAll() on null
+in APPPATH/Controllers/frontEnd/Home.php on line 55.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:31:51 --> Call to a member function result() on null
+in APPPATH/Controllers/frontEnd/Home.php on line 55.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:34:04 --> syntax error, unexpected token "=>", expecting ")"
+in APPPATH/Controllers/frontEnd/Home.php on line 68.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:35:59 --> foreach() argument must be of type array|object, null given
+in APPPATH/Controllers/frontEnd/Home.php on line 53.
+ 1 APPPATH/Controllers/frontEnd/Home.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:45:17 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Views/public/template1/read-news.php on line 30.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:45:30 --> Array to string conversion
+in APPPATH/Views/public/template1/read-news.php on line 30.
+ 1 APPPATH/Views/public/template1/read-news.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:45:47 --> Array to string conversion
+in APPPATH/Views/public/template1/read-news.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/public/template1/read-news.php(30): implode()
+ 3 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:45:48 --> Array to string conversion
+in APPPATH/Views/public/template1/read-news.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/public/template1/read-news.php(30): implode()
+ 3 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:46:08 --> Array to string conversion
+in APPPATH/Views/public/template1/read-news.php on line 30.
+ 1 APPPATH/Views/public/template1/read-news.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:46:28 --> Array to string conversion
+in APPPATH/Views/public/template1/read-news.php on line 30.
+ 1 APPPATH/Views/public/template1/read-news.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:46:41 --> Array to string conversion
+in APPPATH/Views/public/template1/read-news.php on line 30.
+ 1 APPPATH/Views/public/template1/read-news.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:57:02 --> Array to string conversion
+in APPPATH/Views/public/template1/read-news.php on line 30.
+ 1 APPPATH/Views/public/template1/read-news.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:57:22 --> Array to string conversion
+in APPPATH/Views/public/template1/read-news.php on line 30.
+ 1 APPPATH/Views/public/template1/read-news.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 12:03:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `judul`
+ORDER BY RAND()' at line 1 in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /var/www/app.inisurabaya.id/app/Controllers/frontEnd/Home.php(70): CodeIgniter\BaseModel->findAll()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/app.inisurabaya.id/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-20 12:03:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `judul`
+ORDER BY RAND()' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Controllers/frontEnd/Home.php(70): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 12:03:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2
+FROM `judul`
+ORDER BY RAND()' at line 1 in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /var/www/app.inisurabaya.id/app/Controllers/frontEnd/Home.php(70): CodeIgniter\BaseModel->findAll()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/app.inisurabaya.id/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-20 12:03:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2
+FROM `judul`
+ORDER BY RAND()' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Controllers/frontEnd/Home.php(70): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:03:54 --> Cannot use object of type App\Models\Title as array
+in APPPATH/Views/public/template1/read-news.php on line 30.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:09:39 --> syntax error, unexpected variable "$query"
+in APPPATH/Models/Title.php on line 191.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/frontEnd/Home.php(14): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:10:39 --> Undefined array key "id_judul"
+in APPPATH/Views/public/template1/read-news.php on line 30.
+ 1 APPPATH/Views/public/template1/read-news.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:10:40 --> Undefined array key "id_judul"
+in APPPATH/Views/public/template1/read-news.php on line 30.
+ 1 APPPATH/Views/public/template1/read-news.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:11:09 --> Undefined array key "id_judul"
+in APPPATH/Views/public/template1/read-news.php on line 30.
+ 1 APPPATH/Views/public/template1/read-news.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:11:10 --> Undefined array key "id_judul"
+in APPPATH/Views/public/template1/read-news.php on line 30.
+ 1 APPPATH/Views/public/template1/read-news.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:12:51 --> Undefined array key "id_judul"
+in APPPATH/Views/public/template1/read-news.php on line 30.
+ 1 APPPATH/Views/public/template1/read-news.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:12:52 --> Undefined array key "id_judul"
+in APPPATH/Views/public/template1/read-news.php on line 30.
+ 1 APPPATH/Views/public/template1/read-news.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:22:21 --> Undefined constant "countViewArticle"
+in APPPATH/Views/public/template1/read-news.php on line 33.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:25:53 --> Undefined variable $id
+in APPPATH/Controllers/frontEnd/Home.php on line 68.
+ 1 APPPATH/Controllers/frontEnd/Home.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:26:00 --> Undefined variable $slug
+in APPPATH/Controllers/frontEnd/Home.php on line 49.
+ 1 APPPATH/Controllers/frontEnd/Home.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:26:11 --> Too few arguments to function App\Controllers\frontEnd\Home::readnews(), 1 passed in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CodeIgniter.php on line 932 and exactly 2 expected
+in APPPATH/Controllers/frontEnd/Home.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:27:33 --> Too few arguments to function App\Controllers\frontEnd\Home::readnews(), 1 passed in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CodeIgniter.php on line 932 and exactly 2 expected
+in APPPATH/Controllers/frontEnd/Home.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:48:54 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/frontEnd/Home.php on line 52.
+ 1 APPPATH/Controllers/frontEnd/Home.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:49:24 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/frontEnd/Home.php on line 52.
+ 1 APPPATH/Controllers/frontEnd/Home.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:53:31 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/frontEnd/Home.php on line 52.
+ 1 APPPATH/Controllers/frontEnd/Home.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:53:35 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/frontEnd/Home.php on line 52.
+ 1 APPPATH/Controllers/frontEnd/Home.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:53:38 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/frontEnd/Home.php on line 52.
+ 1 APPPATH/Controllers/frontEnd/Home.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:53:44 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/frontEnd/Home.php on line 52.
+ 1 APPPATH/Controllers/frontEnd/Home.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:54:50 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/frontEnd/Home.php on line 52.
+ 1 APPPATH/Controllers/frontEnd/Home.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:56:01 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/frontEnd/Home.php on line 52.
+ 1 APPPATH/Controllers/frontEnd/Home.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:58:47 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/frontEnd/Home.php on line 52.
+ 1 APPPATH/Controllers/frontEnd/Home.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 13:00:18 --> Undefined variable $category
+in APPPATH/Views/public/template1/home.php on line 47.
+ 1 APPPATH/Views/public/template1/home.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/home.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(42): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 13:00:38 --> Undefined variable $category
+in APPPATH/Views/public/template1/home.php on line 47.
+ 1 APPPATH/Views/public/template1/home.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/home.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(42): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 13:03:32 --> Undefined variable $category
+in APPPATH/Views/public/template1/navbar.php on line 16.
+ 1 APPPATH/Views/public/template1/navbar.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/navbar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(452): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/public/template1/layout.php(19): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/layout.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/frontEnd/Home.php(42): view()
+11 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->index()
+12 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 13:03:33 --> Undefined variable $category
+in APPPATH/Views/public/template1/navbar.php on line 16.
+ 1 APPPATH/Views/public/template1/navbar.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/navbar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(452): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/public/template1/layout.php(19): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/layout.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/frontEnd/Home.php(42): view()
+11 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->index()
+12 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 13:03:50 --> Undefined variable $category
+in APPPATH/Views/public/template1/navbar.php on line 16.
+ 1 APPPATH/Views/public/template1/navbar.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/navbar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(452): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/public/template1/layout.php(19): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/layout.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/frontEnd/Home.php(42): view()
+11 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->index()
+12 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 13:04:03 --> Undefined variable $category
+in APPPATH/Views/public/template1/navbar.php on line 16.
+ 1 APPPATH/Views/public/template1/navbar.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/navbar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(452): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/public/template1/layout.php(19): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/layout.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/frontEnd/Home.php(42): view()
+11 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->index()
+12 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 13:33:27 --> Undefined array key "nama_kategori"
+in APPPATH/Views/public/template1/read-news.php on line 18.
+ 1 APPPATH/Views/public/template1/read-news.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 13:33:45 --> Undefined variable $kategori
+in APPPATH/Views/public/template1/read-news.php on line 18.
+ 1 APPPATH/Views/public/template1/read-news.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 13:35:16 --> Undefined array key "nm_ktg"
+in APPPATH/Views/public/template1/read-news.php on line 18.
+ 1 APPPATH/Views/public/template1/read-news.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 13:35:48 --> Undefined array key "nama_kategori"
+in APPPATH/Views/public/template1/read-news.php on line 18.
+ 1 APPPATH/Views/public/template1/read-news.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(79): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 13:44:11 --> mysqli_sql_exception: Column 'slug' in where clause is ambiguous in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/app.inisurabaya.id/app/Models/Title.php(201): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app.inisurabaya.id/app/Controllers/frontEnd/Home.php(68): App\Models\Title->getCategoryArticlePost()
+#6 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/app.inisurabaya.id/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 13:44:11 --> Column 'slug' in where clause is ambiguous
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/Title.php(201): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/frontEnd/Home.php(68): App\Models\Title->getCategoryArticlePost()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 13:44:46 --> Undefined array key "nama_kategori"
+in APPPATH/Views/public/template1/read-news.php on line 18.
+ 1 APPPATH/Views/public/template1/read-news.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(80): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 13:47:10 --> Undefined array key "konten"
+in APPPATH/Views/public/template1/read-news.php on line 27.
+ 1 APPPATH/Views/public/template1/read-news.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(80): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 13:47:36 --> Undefined array key "konten"
+in APPPATH/Views/public/template1/read-news.php on line 27.
+ 1 APPPATH/Views/public/template1/read-news.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(80): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 13:47:54 --> Undefined array key "nama_kategori"
+in APPPATH/Views/public/template1/read-news.php on line 20.
+ 1 APPPATH/Views/public/template1/read-news.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(80): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 13:56:02 --> Call to a member function format() on string
+in APPPATH/Views/public/template1/read-news.php on line 22.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/frontEnd/Home.php(80): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 13:58:31 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH/Views/public/template1/read-news.php on line 22.
+ 1 APPPATH/Views/public/template1/read-news.php(22): date()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(80): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

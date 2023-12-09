@@ -1,0 +1,4 @@
+karena ada perubahan pada file dalam folder vendor yang tidak dapat di push ke github.
+jadi untuk configurasi plugin myth:auth pada folder /vendor/myth/auth,
+aku buatkan di file zip terpisah bernama myth\auth.zip.
+jadi tolong timpa saja folder didalam zip myth\auth kedalam /vendor

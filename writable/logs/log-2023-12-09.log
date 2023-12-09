@@ -1,0 +1,54 @@
+WARNING - 2023-12-09 19:00:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+WARNING - 2023-12-09 19:00:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-12-09 19:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 19:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 19:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 19:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 19:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-09 19:01:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+WARNING - 2023-12-09 19:01:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+WARNING - 2023-12-09 19:01:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+WARNING - 2023-12-09 19:01:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+WARNING - 2023-12-09 19:01:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+WARNING - 2023-12-09 19:01:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-12-09 19:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

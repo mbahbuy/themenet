@@ -1,0 +1,24 @@
+INFO - 2023-09-30 09:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 09:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 09:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 09:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-30 09:51:10 --> Attempt to read property "name" on null
+in APPPATH/Views/dashboard/layouts/sidebar-right.php on line 8.
+ 1 APPPATH/Views/dashboard/layouts/sidebar-right.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/sidebar-right.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/dashboard/layouts/app.php(32): view()
+ 6 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/app.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/backEnd/ArticleController.php(19): view()
+11 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->create()
+12 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-09-30 09:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 10:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 10:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

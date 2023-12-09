@@ -1,0 +1,105 @@
+WARNING - 2023-11-29 01:11:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 03:13:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 03:57:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 03:57:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 04:11:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 08:16:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 10:14:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 10:14:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 10:34:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 10:41:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 12:52:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 14:14:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 14:26:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 14:42:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 19:07:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 19:07:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 19:36:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 20:04:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 20:56:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 21:15:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-29 22:04:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

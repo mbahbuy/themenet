@@ -1,0 +1,223 @@
+CRITICAL - 2023-11-02 08:39:56 --> Undefined variable $article
+in APPPATH/Views/public/template1/categories.php on line 12.
+ 1 APPPATH/Views/public/template1/categories.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 08:40:49 --> Undefined variable $article
+in APPPATH/Views/public/template1/categories.php on line 12.
+ 1 APPPATH/Views/public/template1/categories.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 08:41:31 --> Undefined variable $slug
+in APPPATH/Controllers/frontEnd/Home.php on line 75.
+ 1 APPPATH/Controllers/frontEnd/Home.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 08:44:48 --> Undefined variable $article
+in APPPATH/Views/public/template1/categories.php on line 12.
+ 1 APPPATH/Views/public/template1/categories.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 08:45:28 --> Undefined variable $news_list_widget
+in APPPATH/Views/public/template1/categories.php on line 18.
+ 1 APPPATH/Views/public/template1/categories.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 08:47:38 --> Undefined variable $article
+in APPPATH/Views/public/template1/categories.php on line 12.
+ 1 APPPATH/Views/public/template1/categories.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(85): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 08:47:58 --> Undefined variable $slug
+in APPPATH/Controllers/frontEnd/Home.php on line 75.
+ 1 APPPATH/Controllers/frontEnd/Home.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 08:49:09 --> Too few arguments to function App\Controllers\frontEnd\Home::categories(), 0 passed in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH/Controllers/frontEnd/Home.php on line 70.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 08:49:16 --> Undefined array key "gambar"
+in APPPATH/Views/public/template1/categories.php on line 12.
+ 1 APPPATH/Views/public/template1/categories.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(86): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 08:49:21 --> Undefined variable $slug
+in APPPATH/Controllers/frontEnd/Home.php on line 75.
+ 1 APPPATH/Controllers/frontEnd/Home.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 08:50:49 --> Undefined variable $slug
+in APPPATH/Controllers/frontEnd/Home.php on line 75.
+ 1 APPPATH/Controllers/frontEnd/Home.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 08:52:11 --> Undefined variable $slug
+in APPPATH/Controllers/frontEnd/Home.php on line 75.
+ 1 APPPATH/Controllers/frontEnd/Home.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 08:52:56 --> Undefined variable $article
+in APPPATH/Views/public/template1/categories.php on line 12.
+ 1 APPPATH/Views/public/template1/categories.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(86): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 08:53:44 --> Undefined variable $slug
+in APPPATH/Controllers/frontEnd/Home.php on line 75.
+ 1 APPPATH/Controllers/frontEnd/Home.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 08:53:54 --> syntax error, unexpected token "==", expecting ")"
+in APPPATH/Controllers/frontEnd/Home.php on line 70.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 08:53:59 --> syntax error, unexpected token "===", expecting ")"
+in APPPATH/Controllers/frontEnd/Home.php on line 70.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 08:54:16 --> Undefined variable $slug
+in APPPATH/Controllers/frontEnd/Home.php on line 75.
+ 1 APPPATH/Controllers/frontEnd/Home.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 09:51:06 --> Undefined variable $slug
+in APPPATH/Controllers/frontEnd/Home.php on line 75.
+ 1 APPPATH/Controllers/frontEnd/Home.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 09:51:17 --> Undefined variable $article
+in APPPATH/Views/public/template1/categories.php on line 12.
+ 1 APPPATH/Views/public/template1/categories.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(86): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 09:53:43 --> Undefined variable $article
+in APPPATH/Views/public/template1/categories.php on line 12.
+ 1 APPPATH/Views/public/template1/categories.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(86): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 09:54:11 --> Undefined variable $article
+in APPPATH/Views/public/template1/categories.php on line 15.
+ 1 APPPATH/Views/public/template1/categories.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(86): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 09:54:21 --> Undefined variable $article
+in APPPATH/Views/public/template1/categories.php on line 12.
+ 1 APPPATH/Views/public/template1/categories.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(86): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 09:56:27 --> Undefined variable $article
+in APPPATH/Views/public/template1/categories.php on line 12.
+ 1 APPPATH/Views/public/template1/categories.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(86): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 10:01:26 --> Undefined array key "konten"
+in APPPATH/Views/public/template1/categories.php on line 18.
+ 1 APPPATH/Views/public/template1/categories.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/categories.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(86): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

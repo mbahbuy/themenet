@@ -1,0 +1,292 @@
+INFO - 2023-09-27 02:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-27 02:47:11 --> Undefined variable $title
+in VENDORPATH/myth/auth/src/Views/layout.php on line 10.
+ 1 VENDORPATH/myth/auth/src/Views/layout.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/vendor/myth/auth/src/Views/layout.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 6 VENDORPATH/myth/auth/src/Controllers/AuthController.php(412): view()
+ 7 VENDORPATH/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 8 SYSTEMPATH/CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-09-27 02:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 02:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 02:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 02:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 02:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 02:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-27 09:52:09 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(72): ini_set()
+ 3 SYSTEMPATH/Config/Services.php(671): CodeIgniter\Session\Handlers\FileHandler->__construct()
+ 4 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 5 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(645): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Common.php(1010): CodeIgniter\Config\BaseService::__callStatic()
+ 9 VENDORPATH/myth/auth/src/Controllers/AuthController.php(29): service()
+10 SYSTEMPATH/CodeIgniter.php(904): Myth\Auth\Controllers\AuthController->__construct()
+11 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+CRITICAL - 2023-09-27 09:52:26 --> Cannot modify header information - headers already sent by (output started at /home/buyung/Documents/Project/CI 4/themenet/app/Config/Events.php:32)
+in SYSTEMPATH/Debug/Toolbar.php on line 449.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Debug/Toolbar.php(449): header()
+ 3 APPPATH/Config/Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH/Events/Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(348): CodeIgniter\Events\Events::trigger()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-09-27 09:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 09:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 09:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 09:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 09:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 09:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 09:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 10:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 10:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 10:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 10:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 10:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 10:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 10:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 10:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 10:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 10:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-27 10:31:51 --> Invalid file: "layouts/app.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/backEnd/Dashboard.php(28): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Dashboard->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-09-27 10:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-27 10:32:27 --> Invalid file: "layouts/app.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/backEnd/Dashboard.php(28): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Dashboard->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-09-27 10:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-27 10:32:33 --> Invalid file: "layouts/app.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/backEnd/Dashboard.php(28): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Dashboard->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-09-27 11:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 17:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 17:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-27 18:36:59 --> The route for "index" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 599.
+ 1 SYSTEMPATH/Helpers/url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH/Views/dashboard/layouts/sidebar-left.php(4): url_to()
+ 3 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/sidebar-left.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 6 APPPATH/Views/dashboard/layouts/app.php(28): view()
+ 7 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/app.php')
+ 8 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+10 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+11 APPPATH/Controllers/backEnd/Dashboard.php(28): view()
+12 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Dashboard->index()
+13 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+14 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-09-27 18:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-27 18:37:08 --> The route for "index" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 599.
+ 1 SYSTEMPATH/Helpers/url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH/Views/dashboard/layouts/sidebar-left.php(4): url_to()
+ 3 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/sidebar-left.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 6 APPPATH/Views/dashboard/layouts/app.php(28): view()
+ 7 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/app.php')
+ 8 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+10 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+11 APPPATH/Controllers/backEnd/Dashboard.php(28): view()
+12 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Dashboard->index()
+13 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+14 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-09-27 18:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-27 18:38:13 --> The route for "index" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 599.
+ 1 SYSTEMPATH/Helpers/url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH/Views/dashboard/layouts/sidebar-left.php(4): url_to()
+ 3 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/sidebar-left.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 6 APPPATH/Views/dashboard/layouts/app.php(28): view()
+ 7 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/app.php')
+ 8 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+10 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+11 APPPATH/Controllers/backEnd/Dashboard.php(28): view()
+12 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Dashboard->index()
+13 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+14 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-09-27 18:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-27 18:39:17 --> The route for "index" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 599.
+ 1 SYSTEMPATH/Helpers/url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH/Views/dashboard/layouts/sidebar-left.php(4): url_to()
+ 3 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/sidebar-left.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 6 APPPATH/Views/dashboard/layouts/app.php(28): view()
+ 7 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/app.php')
+ 8 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+10 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+11 APPPATH/Controllers/backEnd/Dashboard.php(28): view()
+12 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Dashboard->index()
+13 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+14 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-09-27 18:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-27 18:39:21 --> The route for "index" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 599.
+ 1 SYSTEMPATH/Helpers/url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH/Views/dashboard/layouts/sidebar-left.php(4): url_to()
+ 3 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/sidebar-left.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 6 APPPATH/Views/dashboard/layouts/app.php(28): view()
+ 7 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/app.php')
+ 8 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+10 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+11 APPPATH/Controllers/backEnd/Dashboard.php(28): view()
+12 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Dashboard->index()
+13 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+14 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-09-27 18:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-27 18:40:22 --> The route for "index" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 599.
+ 1 SYSTEMPATH/Helpers/url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH/Views/dashboard/layouts/sidebar-left.php(4): url_to()
+ 3 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/sidebar-left.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 6 APPPATH/Views/dashboard/layouts/app.php(28): view()
+ 7 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/app.php')
+ 8 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+10 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+11 APPPATH/Controllers/backEnd/Dashboard.php(28): view()
+12 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Dashboard->index()
+13 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+14 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-09-27 18:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-27 18:42:09 --> The route for "index" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 599.
+ 1 SYSTEMPATH/Helpers/url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH/Views/dashboard/layouts/sidebar-left.php(4): url_to()
+ 3 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/sidebar-left.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 6 APPPATH/Views/dashboard/layouts/app.php(28): view()
+ 7 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/app.php')
+ 8 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+10 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+11 APPPATH/Controllers/backEnd/Dashboard.php(28): view()
+12 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Dashboard->index()
+13 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+14 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-09-27 18:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-27 18:43:02 --> Undefined variable $section
+in APPPATH/Views/dashboard/layouts/sidebar-left.php on line 26.
+ 1 APPPATH/Views/dashboard/layouts/sidebar-left.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/sidebar-left.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/dashboard/layouts/app.php(28): view()
+ 6 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/app.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/backEnd/Dashboard.php(28): view()
+11 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Dashboard->index()
+12 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-09-27 18:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-27 18:43:19 --> Undefined variable $section
+in APPPATH/Views/dashboard/layouts/sidebar-left.php on line 26.
+ 1 APPPATH/Views/dashboard/layouts/sidebar-left.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/sidebar-left.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/dashboard/layouts/app.php(28): view()
+ 6 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/layouts/app.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/backEnd/Dashboard.php(28): view()
+11 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Dashboard->index()
+12 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-09-27 18:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 18:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 19:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-27 20:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

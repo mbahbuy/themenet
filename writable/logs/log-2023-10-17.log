@@ -1,0 +1,32 @@
+CRITICAL - 2023-10-17 10:58:43 --> Invalid file: "App\Views\dashboard\pagers\article_list.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Pager/Pager.php(126): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Pager/Pager.php(110): CodeIgniter\Pager\Pager->displayLinks()
+ 4 APPPATH/Controllers/backEnd/ArticleController.php(60): CodeIgniter\Pager\Pager->makeLinks()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 10:58:46 --> Invalid file: "App\Views\dashboard\pagers\article_list.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Pager/Pager.php(126): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Pager/Pager.php(110): CodeIgniter\Pager\Pager->displayLinks()
+ 4 APPPATH/Controllers/backEnd/ArticleController.php(60): CodeIgniter\Pager\Pager->makeLinks()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-17 11:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 11:01:00 --> Invalid file: "App\Views\dashboard\pagers\article_list.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Pager/Pager.php(126): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Pager/Pager.php(110): CodeIgniter\Pager\Pager->displayLinks()
+ 4 APPPATH/Controllers/backEnd/ArticleController.php(60): CodeIgniter\Pager\Pager->makeLinks()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-17 11:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

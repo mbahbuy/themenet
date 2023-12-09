@@ -1,0 +1,430 @@
+INFO - 2023-10-06 08:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 08:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 08:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-06 08:15:02 --> Attempt to read property "nama_kategori" on array
+in APPPATH/Views/dashboard/preference/rubrik.php on line 39.
+ 1 APPPATH/Views/dashboard/preference/rubrik.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/preference/rubrik.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/backEnd/PreferenceController.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\PreferenceController->rubrik_index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-06 08:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 08:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-06 08:18:26 --> Call to undefined method App\Models\Meta::group_by
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/backEnd/PreferenceController.php(35): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\PreferenceController->tag_index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-06 08:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-06 08:18:53 --> Call to undefined method App\Models\Meta::group_by
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/backEnd/PreferenceController.php(35): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\PreferenceController->tag_index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-06 08:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-06 08:21:01 --> mysqli_sql_exception: Invalid use of group function in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/PreferenceController.php(39): CodeIgniter\Model->__call()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\PreferenceController->tag_index()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2023-10-06 08:21:01 --> Invalid use of group function
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/backEnd/PreferenceController.php(39): CodeIgniter\Model->__call()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\PreferenceController->tag_index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-06 08:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-06 08:24:58 --> mysqli_sql_exception: Invalid use of group function in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Meta.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/PreferenceController.php(34): App\Models\Meta->getMetaFilter()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\PreferenceController->tag_index()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2023-10-06 08:24:58 --> Invalid use of group function
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/Meta.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/backEnd/PreferenceController.php(34): App\Models\Meta->getMetaFilter()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\PreferenceController->tag_index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-06 08:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-06 08:25:00 --> mysqli_sql_exception: Invalid use of group function in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Meta.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/PreferenceController.php(34): App\Models\Meta->getMetaFilter()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\PreferenceController->tag_index()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2023-10-06 08:25:00 --> Invalid use of group function
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/Meta.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/backEnd/PreferenceController.php(34): App\Models\Meta->getMetaFilter()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\PreferenceController->tag_index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-06 08:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-06 08:25:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::group_by()
+in APPPATH/Models/Meta.php on line 15.
+ 1 APPPATH/Controllers/backEnd/PreferenceController.php(34): App\Models\Meta->getMetaFilter()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\PreferenceController->tag_index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-06 08:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-06 08:41:58 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'buyungAbimanyu'@'localhost' (using password: YES) in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#6 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /var/www/app.inisurabaya.id/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#9 /var/www/app.inisurabaya.id/spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-10-06 08:42:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'buyungAbimanyu'@'localhost' (using password: YES) in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#6 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /var/www/app.inisurabaya.id/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#9 /var/www/app.inisurabaya.id/spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-10-06 08:42:54 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'buyungAbimanyu'@'localhost' (using password: YES) in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#6 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /var/www/app.inisurabaya.id/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#9 /var/www/app.inisurabaya.id/spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-10-06 08:42:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'buyungAbimanyu'@'localhost' (using password: YES) in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#6 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /var/www/app.inisurabaya.id/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#9 /var/www/app.inisurabaya.id/spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-10-06 08:46:08 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'buyungAbimanyu'@'localhost' (using password: YES) in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#6 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /var/www/app.inisurabaya.id/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#9 /var/www/app.inisurabaya.id/spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-10-06 08:46:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'buyungAbimanyu'@'localhost' (using password: YES) in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#6 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /var/www/app.inisurabaya.id/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#9 /var/www/app.inisurabaya.id/spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-10-06 08:51:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'buyungAbimanyu'@'localhost' (using password: YES) in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#6 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /var/www/app.inisurabaya.id/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#9 /var/www/app.inisurabaya.id/spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-10-06 08:52:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'buyungAbimanyu'@'localhost' (using password: YES) in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#6 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /var/www/app.inisurabaya.id/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists()
+#5 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#7 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#8 /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#9 /var/www/app.inisurabaya.id/spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2023-10-06 08:56:19 --> Attempt to read property "name" on null
+in APPPATH/Views/dashboard/layouts/sidebar-right.php on line 8.
+ 1 APPPATH/Views/dashboard/layouts/sidebar-right.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/dashboard/layouts/sidebar-right.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/dashboard/layouts/app.php(32): view()
+ 6 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/dashboard/layouts/app.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/backEnd/Dashboard.php(28): view()
+11 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Dashboard->index()
+12 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:57:29 --> Attempt to read property "name" on null
+in APPPATH/Views/dashboard/layouts/sidebar-right.php on line 8.
+ 1 APPPATH/Views/dashboard/layouts/sidebar-right.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/dashboard/layouts/sidebar-right.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/dashboard/layouts/app.php(32): view()
+ 6 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/dashboard/layouts/app.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/backEnd/Dashboard.php(28): view()
+11 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Dashboard->index()
+12 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-06 08:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-06 08:58:53 --> Attempt to read property "name" on null
+in APPPATH/Views/dashboard/layouts/sidebar-right.php on line 8.
+ 1 APPPATH/Views/dashboard/layouts/sidebar-right.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/dashboard/layouts/sidebar-right.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/dashboard/layouts/app.php(32): view()
+ 6 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/dashboard/layouts/app.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/backEnd/Dashboard.php(28): view()
+11 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Dashboard->index()
+12 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-06 09:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-06 09:00:44 --> Attempt to read property "name" on null
+in APPPATH/Views/dashboard/layouts/sidebar-right.php on line 8.
+ 1 APPPATH/Views/dashboard/layouts/sidebar-right.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/dashboard/layouts/sidebar-right.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/dashboard/layouts/app.php(32): view()
+ 6 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/dashboard/layouts/app.php')
+ 7 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/backEnd/Dashboard.php(28): view()
+11 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Dashboard->index()
+12 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-06 09:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 09:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 09:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 09:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 09:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 09:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 09:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 09:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 09:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 09:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 09:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-06 09:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

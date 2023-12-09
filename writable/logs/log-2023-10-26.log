@@ -1,0 +1,59 @@
+CRITICAL - 2023-10-26 00:54:46 --> Call to undefined function uc_words()
+in APPPATH/Views/public/template1/home.php on line 49.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/frontEnd/Home.php(42): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 00:56:18 --> Call to undefined function uc_first()
+in APPPATH/Views/public/template1/home.php on line 49.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/frontEnd/Home.php(42): view()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 01:02:39 --> Trying to access array offset on value of type null
+in APPPATH/Views/public/template1/read-news.php on line 16.
+ 1 APPPATH/Views/public/template1/read-news.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/public/template1/read-news.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/frontEnd/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:29:46 --> Undefined variable $today
+in APPPATH/Controllers/backEnd/ArticleController.php on line 383.
+ 1 APPPATH/Controllers/backEnd/ArticleController.php(383): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:29:56 --> Undefined variable $today
+in APPPATH/Controllers/backEnd/ArticleController.php on line 383.
+ 1 APPPATH/Controllers/backEnd/ArticleController.php(383): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:30:13 --> Undefined variable $today
+in APPPATH/Controllers/backEnd/ArticleController.php on line 383.
+ 1 APPPATH/Controllers/backEnd/ArticleController.php(383): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 18:30:43 --> Undefined variable $today
+in APPPATH/Controllers/backEnd/ArticleController.php on line 383.
+ 1 APPPATH/Controllers/backEnd/ArticleController.php(383): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

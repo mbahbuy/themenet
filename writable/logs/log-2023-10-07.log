@@ -1,0 +1,23 @@
+INFO - 2023-10-07 07:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-07 08:03:09 --> Attempt to read property "meta" on array
+in APPPATH/Views/dashboard/preference/tag.php on line 39.
+ 1 APPPATH/Views/dashboard/preference/tag.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/dashboard/preference/tag.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/backEnd/PreferenceController.php(31): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\PreferenceController->tag_index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 08:03:11 --> Attempt to read property "meta" on array
+in APPPATH/Views/dashboard/preference/tag.php on line 39.
+ 1 APPPATH/Views/dashboard/preference/tag.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/var/www/app.inisurabaya.id/app/Views/dashboard/preference/tag.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/backEnd/PreferenceController.php(31): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\PreferenceController->tag_index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

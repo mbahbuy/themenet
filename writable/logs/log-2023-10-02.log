@@ -1,0 +1,848 @@
+INFO - 2023-10-02 05:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 06:00:05 --> Invalid file: "dashboard/gallery.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/backEnd/Dashboard.php(41): view()
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Dashboard->gallery()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 06:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 06:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 06:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 06:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 06:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 06:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 06:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 09:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 09:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 09:15:01 --> Call to undefined method App\Models\Title::with
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/backEnd/ArticleController.php(20): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 09:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 09:15:29 --> Call to undefined method App\Models\Title::hasMany
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Models/Title.php(29): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 09:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 10:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 10:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 10:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 10:19:35 --> Call to undefined method App\Models\Title::left
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Models/Title.php(29): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 10:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 10:24:04 --> Call to undefined method App\Models\Title::right
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Models/Title.php(29): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 10:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 10:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 10:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 10:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 10:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 10:28:42 --> Call to undefined method App\Models\Title::map
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Models/Title.php(32): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 10:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 10:28:54 --> mysqli_sql_exception: Unknown column 'judul.gambar' in 'on clause' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): CodeIgniter\BaseModel->findAll()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-10-02 10:28:54 --> Unknown column 'judul.gambar' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Controllers/backEnd/ArticleController.php(20): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 10:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 10:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 10:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 10:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 10:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 10:38:19 --> Call to undefined method App\Models\Title::getResult
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Models/Title.php(29): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 10:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 10:38:28 --> Call to undefined method App\Models\Title::getResultArray
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Models/Title.php(29): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 10:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 10:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 10:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 10:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 10:47:16 --> Call to a member function groupBy() on array
+in APPPATH/Models/Title.php on line 30.
+ 1 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 10:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 10:53:18 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'satumedia.judul.id_judul' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(29): CodeIgniter\BaseModel->findAll()
+#7 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-10-02 10:53:18 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'satumedia.judul.id_judul' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Models/Title.php(29): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 10:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 10:59:15 --> mysqli_sql_exception: Unknown column 'users.inisial' in 'field list' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(29): CodeIgniter\BaseModel->findAll()
+#7 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-10-02 10:59:15 --> Unknown column 'users.inisial' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Models/Title.php(29): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 10:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 10:59:47 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'satumedia.judul.judul' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(29): CodeIgniter\BaseModel->findAll()
+#7 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-10-02 10:59:47 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'satumedia.judul.judul' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Models/Title.php(29): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 11:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 11:06:36 --> mysqli_sql_exception: Unknown column 'konten.content' in 'field list' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(43): CodeIgniter\BaseModel->findAll()
+#7 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-10-02 11:06:36 --> Unknown column 'konten.content' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Models/Title.php(43): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 11:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 11:07:18 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'satumedia.judul.judul' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(43): CodeIgniter\BaseModel->findAll()
+#7 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-10-02 11:07:18 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'satumedia.judul.judul' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Models/Title.php(43): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 11:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 11:08:54 --> mysqli_sql_exception: Unknown column 'konten.content' in 'field list' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(43): CodeIgniter\BaseModel->findAll()
+#7 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-10-02 11:08:54 --> Unknown column 'konten.content' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Models/Title.php(43): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 11:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 11:09:08 --> mysqli_sql_exception: Expression #6 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'satumedia.kategori.nama_kategori' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(43): CodeIgniter\BaseModel->findAll()
+#7 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-10-02 11:09:08 --> Expression #6 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'satumedia.kategori.nama_kategori' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Models/Title.php(43): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 11:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 11:10:20 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'satumedia.judul.slug' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(43): CodeIgniter\BaseModel->findAll()
+#7 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-10-02 11:10:20 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'satumedia.judul.slug' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Models/Title.php(43): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 11:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 11:11:34 --> mysqli_sql_exception: Column 'status' in field list is ambiguous in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(43): CodeIgniter\BaseModel->findAll()
+#7 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-10-02 11:11:34 --> Column 'status' in field list is ambiguous
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Models/Title.php(43): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 11:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 11:12:19 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'satumedia.judul.judul' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(43): CodeIgniter\BaseModel->findAll()
+#7 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-10-02 11:12:19 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'satumedia.judul.judul' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Models/Title.php(43): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 11:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 11:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 11:46:14 --> mysqli_sql_exception: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'satumedia.u.initial'; this is incompatible with sql_mode=only_full_group_by in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2023-10-02 11:46:14 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'satumedia.u.initial'; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/Title.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 11:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 11:51:49 --> mysqli_sql_exception: In aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'satumedia.j.judul'; this is incompatible with sql_mode=only_full_group_by in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2023-10-02 11:51:49 --> In aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'satumedia.j.judul'; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/Title.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 11:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 11:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 11:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 12:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 12:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 12:02:48 --> mysqli_sql_exception: Duplicate column name 'konten' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2023-10-02 12:02:48 --> Duplicate column name 'konten'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/Title.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 12:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 12:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 12:04:26 --> mysqli_sql_exception: Duplicate column name 'konten' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2023-10-02 12:04:26 --> Duplicate column name 'konten'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/Title.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 12:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 12:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 12:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 12:10:26 --> mysqli_sql_exception: Column 'id_judul' in order clause is ambiguous in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2023-10-02 12:10:26 --> Column 'id_judul' in order clause is ambiguous
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/Title.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 12:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 12:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 12:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 12:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 12:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 12:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 12:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 12:35:25 --> mysqli_sql_exception: Operand should contain 1 column(s) in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2023-10-02 12:35:25 --> Operand should contain 1 column(s)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/Title.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 12:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 12:38:15 --> mysqli_sql_exception: Invalid use of group function in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2023-10-02 12:38:15 --> Invalid use of group function
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/Title.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 12:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 12:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 12:43:24 --> mysqli_sql_exception: Unknown column 'gambar' in 'field list' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Models/Title.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2023-10-02 12:43:24 --> Unknown column 'gambar' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/Title.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/backEnd/ArticleController.php(20): App\Models\Title->konten()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 12:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 12:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 14:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 15:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 15:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 15:22:09 --> Undefined variable $data
+in APPPATH/Views/dashboard/article/list.php on line 36.
+ 1 APPPATH/Views/dashboard/article/list.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/article/list.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/backEnd/ArticleController.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\ArticleController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 15:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 15:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 15:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 15:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 15:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 15:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 15:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 15:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 15:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 15:48:59 --> Undefined property: App\Controllers\backEnd\ArticleController::$lang
+in APPPATH/Controllers/BaseController.php on line 53.
+ 1 APPPATH/Controllers/BaseController.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\BaseController->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 15:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 15:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 16:52:23 --> Class "App\Database\Migrations\Gambar" not found
+in APPPATH/Controllers/backEnd/GalleryController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\backEnd\GalleryController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+CRITICAL - 2023-10-02 16:54:01 --> The route for "index" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 599.
+ 1 SYSTEMPATH/Helpers/url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH/Views/dashboard/gallery/foto.php(29): url_to()
+ 3 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/gallery/foto.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/backEnd/GalleryController.php(17): view()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\GalleryController->foto()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+CRITICAL - 2023-10-02 16:54:17 --> Attempt to read property "picture" on array
+in APPPATH/Views/dashboard/gallery/foto.php on line 29.
+ 1 APPPATH/Views/dashboard/gallery/foto.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/gallery/foto.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/backEnd/GalleryController.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\GalleryController->foto()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+CRITICAL - 2023-10-02 16:56:12 --> Attempt to read property "picture" on array
+in APPPATH/Views/dashboard/gallery/foto.php on line 29.
+ 1 APPPATH/Views/dashboard/gallery/foto.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/buyung/Documents/Project/CI 4/themenet/app/Views/dashboard/gallery/foto.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/backEnd/GalleryController.php(18): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\GalleryController->foto()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-10-02 16:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 16:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 17:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 17:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 17:24:22 --> mysqli_sql_exception: Failed to open the referenced table 'kategori' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084808_judul.php(77): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Judul->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-02 17:31:14 --> mysqli_sql_exception: Failed to open the referenced table 'kategori' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084808_judul.php(77): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Judul->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-02 17:31:47 --> mysqli_sql_exception: Failed to open the referenced table 'kategori' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084808_judul.php(77): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Judul->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}

@@ -1,0 +1,336 @@
+INFO - 2023-10-01 09:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 09:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-01 09:14:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),
+	UNIQUE KEY `blacklink1_idx` (`id_judul`),
+	UNIQUE KEY `blacklink2_idx` ()
+) ' at line 6 in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084720_backlink.php(29): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Backlink->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 09:14:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),
+	UNIQUE KEY `blacklink1_idx` (`id_judul`),
+	UNIQUE KEY `blacklink2_idx` ()
+) ' at line 6 in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084720_backlink.php(29): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Backlink->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 09:14:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),
+	UNIQUE KEY `blacklink1_idx` (`id_judul`),
+	UNIQUE KEY `blacklink2_idx` ()
+) ' at line 6 in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084720_backlink.php(29): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Backlink->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 09:25:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),
+	UNIQUE KEY `blacklink1_idx` (`id_judul`),
+	UNIQUE KEY `blacklink2_idx` ()
+) ' at line 6 in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084720_backlink.php(29): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Backlink->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 09:29:52 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084720_backlink.php(29): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Backlink->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 09:31:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),
+	UNIQUE KEY `blacklink1_idx` (`id_judul`),
+	UNIQUE KEY `blacklink2_idx` ()
+) ' at line 6 in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084720_backlink.php(29): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Backlink->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 09:47:29 --> mysqli_sql_exception: Failed to open the referenced table 'judul' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084720_backlink.php(32): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Backlink->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 09:48:34 --> mysqli_sql_exception: Failed to open the referenced table 'judul' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084720_backlink.php(32): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Backlink->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 09:51:00 --> mysqli_sql_exception: Failed to open the referenced table 'judul' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084720_backlink.php(32): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Backlink->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 09:52:10 --> mysqli_sql_exception: Failed to open the referenced table 'judul' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084720_backlink.php(32): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Backlink->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 09:56:44 --> mysqli_sql_exception: Failed to open the referenced table 'judul' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084720_backlink.php(32): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Backlink->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 10:16:31 --> mysqli_sql_exception: Failed to open the referenced table 'judul' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084720_backlink.php(39): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Backlink->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 10:23:15 --> mysqli_sql_exception: Too-big precision 225 specified for 'waktu_status'. Maximum is 6. in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084808_judul.php(78): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Judul->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 10:24:11 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084808_judul.php(78): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Judul->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 10:25:43 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084808_judul.php(78): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Judul->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 10:27:13 --> mysqli_sql_exception: Failed to open the referenced table 'kategori' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084808_judul.php(77): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Judul->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 10:29:13 --> mysqli_sql_exception: Failed to open the referenced table 'kategori' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084808_judul.php(77): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Judul->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 10:44:08 --> mysqli_sql_exception: Cannot add foreign key constraint in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/vendor/myth/auth/src/Database/Migrations/2017-11-20-223112_create_auth_tables.php(37): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 10:44:26 --> mysqli_sql_exception: Cannot add foreign key constraint in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/vendor/myth/auth/src/Database/Migrations/2017-11-20-223112_create_auth_tables.php(37): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 10:45:17 --> mysqli_sql_exception: Failed to open the referenced table 'kategori' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084808_judul.php(77): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Judul->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-01 10:50:05 --> mysqli_sql_exception: Failed to open the referenced table 'kategori' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Migrations/2023-08-28-084808_judul.php(77): CodeIgniter\Database\Forge->createTable()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(877): App\Database\Migrations\Judul->up()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2023-10-01 10:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 14:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 15:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 15:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 16:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 16:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 16:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 16:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 16:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

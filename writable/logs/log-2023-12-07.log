@@ -1,0 +1,48 @@
+WARNING - 2023-12-07 18:29:08 --> [DEPRECATED] Creation of dynamic property jcobhams\NewsApi\NewsApi::$client is deprecated in VENDORPATH/jcobhams/newsapi/src/NewsApi.php on line 18.
+ 1 APPPATH/Database/Seeds/CategorySeeder.php(11): jcobhams\NewsApi\NewsApi->__construct('e3251800c3f84b94955818bea4a37d86')
+ 2 SYSTEMPATH/Database/Seeder.php(146): App\Database\Seeds\CategorySeeder->run()
+ 3 SYSTEMPATH/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\CategorySeeder')
+ 4 SYSTEMPATH/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH/CLI/Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH/spark(97): CodeIgniter\CLI\Console->run()
+WARNING - 2023-12-07 18:29:19 --> [DEPRECATED] Creation of dynamic property jcobhams\NewsApi\NewsApi::$client is deprecated in VENDORPATH/jcobhams/newsapi/src/NewsApi.php on line 18.
+ 1 APPPATH/Database/Seeds/ArticleSeeder.php(14): jcobhams\NewsApi\NewsApi->__construct('e3251800c3f84b94955818bea4a37d86')
+ 2 SYSTEMPATH/Database/Seeder.php(146): App\Database\Seeds\ArticleSeeder->run()
+ 3 SYSTEMPATH/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\ArticleSeeder')
+ 4 SYSTEMPATH/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run([])
+ 5 SYSTEMPATH/CLI/Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 6 ROOTPATH/spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2023-12-07 18:29:22 --> mysqli_sql_exception: Column 'picture' cannot be null in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /home/buyung/Documents/Project/CI 4/themenet/app/Database/Seeds/ArticleSeeder.php(35): CodeIgniter\Model->insert()
+#8 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/Seeder.php(146): App\Database\Seeds\ArticleSeeder->run()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run()
+#11 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#12 /home/buyung/Documents/Project/CI 4/themenet/spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}
+INFO - 2023-12-07 18:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 18:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 18:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 18:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 18:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 18:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 18:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 18:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 18:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 18:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 18:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 18:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 18:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 18:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 18:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 18:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 18:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 18:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

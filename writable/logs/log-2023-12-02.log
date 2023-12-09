@@ -1,0 +1,20 @@
+CRITICAL - 2023-12-02 09:43:59 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/frontEnd/Home.php on line 55.
+ 1 APPPATH/Controllers/frontEnd/Home.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 16:51:46 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/frontEnd/Home.php on line 55.
+ 1 APPPATH/Controllers/frontEnd/Home.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->readnews()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 21:47:31 --> Too few arguments to function App\Controllers\frontEnd\Home::categories(), 0 passed in /var/www/app.inisurabaya.id/vendor/codeigniter4/framework/system/CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH/Controllers/frontEnd/Home.php on line 88.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\frontEnd\Home->categories()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
