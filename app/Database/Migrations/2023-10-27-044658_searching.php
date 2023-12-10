@@ -9,8 +9,8 @@ class Searching extends Migration{
         $this->forge->addField([
             'id'              => ['type' => 'int', 'constraint' => 11, 'unsigned' => true, 'auto_increment' => true, 'comment' => 'id record'],
             'keyword' => [
-                'type'           => 'INT',
-                'unsigned'       => true,
+                'type'           => 'VARCHAR',
+                'constraint' => 225,
                 'comment' => 'keyword searching',
             ],
         ]);

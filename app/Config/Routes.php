@@ -69,7 +69,31 @@ $routes->group('dashboard', ['filter' => 'login'], function ($routeDashboard)
 
     $routeDashboard->group('report', ['filter' => 'role:admin,redaktur'], function ($routeReport)
     {
-        $routeReport->get('page_view', 'backEnd\Report\ViewController::index', ['as' => 'report.page_view']);
+        $routeReport->group('page_view', ['filter' => 'role:admin,redaktur'], function ($routePageView)
+        {
+            $routePageView->get('/', 'backEnd\Report\ViewController::index', ['as' => 'report.page_view']);
+        });
+
+        $routeReport->group('page_active', ['filter' => 'role:admin,redaktur'], function ($routePageActive)
+        {
+            $routePageActive->get('/', 'backEnd\Report\ActiveController::index', ['as' => 'report.page_active']);
+        });
+
+        $routeReport->group('rubrik', ['filter' => 'role:admin,redaktur'], function ($routeRubrik)
+        {
+            $routeRubrik->get('/', 'backEnd\Report\RubrikController::index', ['as' => 'report.rubrik']);
+        });
+
+        $routeReport->group('tag', ['filter' => 'role:admin,redaktur'], function ($routeTag)
+        {
+            $routeTag->get('/', 'backEnd\Report\TagController::index', ['as' => 'report.tag']);
+        });
+
+        $routeReport->group('top_search', ['filter' => 'role:admin,redaktur'], function ($routeTopSearch)
+        {
+            $routeTopSearch->get('/', 'backEnd\Report\SearchController::index', ['as' => 'report.top_search']);
+        });
+
     });
 
     $routeDashboard->group('preference', ['filter' => 'role:admin,redaktur'], function ($routePreference) 

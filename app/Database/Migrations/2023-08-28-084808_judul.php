@@ -18,10 +18,10 @@ class Judul extends Migration{
                 'unsigned'       => true,
                 'comment' => 'ID kategori',
             ],
-            'user_hash' => [
-                'type'           => 'VARCHAR',
-                'constraint'     => '225',
-                'comment' => 'ID user tapi pakai hash/md5 dari email',
+            'user_id' => [
+                'type'           => 'INT',
+                'unsigned'       => true,
+                'comment' => 'ID user',
             ],
             'judul' => [
                 'type'       => 'VARCHAR',

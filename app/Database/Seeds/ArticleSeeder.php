@@ -16,17 +16,17 @@ class ArticleSeeder extends \CodeIgniter\Database\Seeder{
         $kategori = new Category();
         $kategories = $kategori->findAll();
 
-        $users = ['03ff961045708e07c0737014108659', '75dc20ebc4e4398c61890552b30ec9', '23fcaf8e6dfadab74b0421db8ef8a8', 'd530b0478f03276c92e8d09c244f23'];
+        $users = [1, 2, 3, 4];
         foreach ($kategories as $value) {
             $news = $newsapi->getEverything($value['nama_kategori']);
     
             foreach ($news->articles as $n) {
-                $randKey = array_rand([1,2,3]);
+                $randKey = array_rand([3,2,1,0]);
                 $data = [
                     'judul' => $n->title,
                     'picture' => $n->urlToImage,
                     'id_kategori' => $value['id_kategori'],
-                    'user_hash' => $users[$randKey],
+                    'user_id' => $users[$randKey],
                     'status' => 'P',
                     'waktu_status' => $today->format('Y-m-d'),
                     'konten_singkat' => $n->description

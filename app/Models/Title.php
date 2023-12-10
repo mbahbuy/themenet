@@ -8,7 +8,7 @@ use Config\Services;
 class Title extends Model{
     protected $table      = 'judul';
     protected $primaryKey = 'id_judul';
-    protected $allowedFields = ['id_kategori', 'user_hash', 'judul', 'meta_keyword', 'slug', 'status', 'waktu_status', 'picture', 'konten_singkat',];// data index yg boleh di isi
+    protected $allowedFields = ['id_kategori', 'user_id', 'judul', 'meta_keyword', 'slug', 'status', 'waktu_status', 'picture', 'konten_singkat',];// data index yg boleh di isi
     protected $useTimestamps   = true;
     protected $useSoftDeletes = false; // Set to true if you're using soft deletes
     protected $beforeInsert = ['setSlug'];
@@ -26,7 +26,7 @@ class Title extends Model{
         if ($slug !== null) {            
             $data = $this->db->table('judul j')
             ->select('j.id_judul, j.meta_keyword, u.name AS penulis, u.initial AS inisial, j.judul, j.slug, j.konten_singkat, j.status, j.waktu_status AS published_at, j.picture AS gambar, c.id_kategori, c.nama_kategori AS kategori, j.created_at AS created_at')
-            ->join('users u', 'j.user_hash = u.user_hash', 'inner')
+            ->join('users u', 'j.user_id = u.id', 'inner')
             ->join('kategori c', 'j.id_kategori = c.id_kategori', 'left')
             ->where('j.slug', $slug)
             ->get()
@@ -66,7 +66,7 @@ class Title extends Model{
 
         $dataRaw = $this->db->table('judul j')
         ->select('u.name AS penulis, u.initial AS inisial, j.judul, j.slug, j.konten_singkat, j.status, j.waktu_status AS publised_at, j.picture AS gambar, c.nama_kategori AS kategori, j.created_at AS created_at')
-        ->join('users u', 'j.user_hash = u.user_hash', 'inner')
+        ->join('users u', 'j.user_id = u.id', 'inner')
         ->join('kategori c', 'j.id_kategori = c.id_kategori', 'inner')
         ->where('j.status', 'P')
         ->where('c.status', true)
@@ -77,60 +77,6 @@ class Title extends Model{
         return $data;
 
     }
-
-    // public function getKonten($slug = null)
-    // {
-    //     if ($slug !== null) {
-
-    //         $data = $this->db->table('judul j')
-    //         ->select('j.id_judul, u.name AS penulis, u.initial AS inisial, j.judul, j.slug, j.konten_singkat, j.status, j.waktu_status AS published_at, j.picture AS gambar, c.nama_kategori AS kategori, c.status AS kategori_status, j.created_at AS created_at, GROUP_CONCAT(m.meta) AS meta')
-    //         ->join('users u', 'j.user_hash = u.user_hash', 'inner')
-    //         ->join('kategori c', 'j.id_kategori = c.id_kategori', 'left')
-    //         ->join('relasi_meta rm', 'j.id_judul = rm.id_judul', 'left')
-    //         ->join('meta m', 'rm.id_meta = m.id_meta', 'left')
-    //         ->where('j.user_hash', user()->user_hash)
-    //         ->where('j.slug', $slug)
-    //         ->groupBy('j.id_judul')
-    //         ->orderBy('created_at', 'DESC')
-    //         ->get()
-    //         ->getFirstRow();
-
-    //         $dataKonten = $this->db->table('konten')
-    //         ->select('konten')
-    //         ->where('id_judul', $data->id_judul)
-    //         ->orderBy('sequence', 'ASC')
-    //         ->get()
-    //         ->getResult();
-    //         $konten = "";
-    //         foreach ($dataKonten as $k) {
-    //             $konten .= $k->konten;
-    //         }
-    //         $result = array_merge((array)$data, ['konten' => $konten]);
-    //         return $result;
-
-    //     }
-
-    //     $dataRaw = $this->db->table('judul j')
-    //     ->select('u.name AS penulis, u.initial AS inisial, j.judul, j.slug, j.konten_singkat, j.status, j.waktu_status AS publised_at, j.picture AS gambar, c.nama_kategori AS kategori, c.status AS kategori_status, j.created_at AS created_at')
-    //     ->join('users u', 'j.user_hash = u.user_hash', 'inner')
-    //     ->join('kategori c', 'j.id_kategori = c.id_kategori', 'left')
-    //     ->where('j.user_hash', user()->user_hash)
-    //     ->orderBy('created_at', 'DESC')
-    //     ->get();    
-
-    //     $data = $dataRaw->getResult();
-    //     return $data;
-    // }
-
-    // public function getJudulGroupedByCategory()
-    // {
-    //     $builder = $this->db->table('judul')
-    //         ->join('kategori', 'judul.id_kategori = kategori.id_kategori')
-    //         ->orderBy('judul.id_kategori', 'ASC');
-                       
-    //     $query = $builder->get();
-    //     return $query;
-    // }
 
     public function search($keyword, $page, $perPage)
     {

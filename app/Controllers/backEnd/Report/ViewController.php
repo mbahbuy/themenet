@@ -20,7 +20,7 @@ class ViewController extends BaseController
     {
         $dataRaw = $this->db->table('judul j')
         ->select('u.name AS penulis, u.initial, j.judul, j.waktu_status AS published_at, c.nama_kategori AS kategori, COUNT(rj.id_judul) as view')
-        ->join('users u', 'j.user_hash = u.user_hash', 'left')
+        ->join('users u', 'j.user_id = u.id', 'left')
         ->join('kategori c', 'j.id_kategori = c.id_kategori', 'inner')
         ->join('record_judul rj', 'rj.id_judul = j.id_judul', 'left') // Use left join for optional views
         ->where('j.status', 'P')

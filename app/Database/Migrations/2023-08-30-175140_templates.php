@@ -27,23 +27,23 @@ class Templates extends Migration{
         $this->forge->addKey('id_template', TRUE);
         $this->forge->createTable('templates');
 
-        // $this->forge->addField([
-        //     'id_template'          		=> [
-        //         'type'           => 'INT',
-        //         'unsigned' => true,
-        //     ],
-        //     'status'            => [
-        //         'type'          => 'INT',
-        //         'constraint'     => '1',
-        //         'default'       => true,
-        //         'comment'       => 'true/angka 1 : menunjukan pada template yang di pakai, false/angka 0 : menunjukan bahwa template tidak dipakai'
-        //     ],
-        // ]);
-        // $this->forge->createTable('templates_active');
+        $this->forge->addField([
+            'id_template'          		=> [
+                'type'           => 'INT',
+                'unsigned' => true,
+            ],
+            'status'            => [
+                'type'          => 'INT',
+                'constraint'     => '1',
+                'default'       => true,
+                'comment'       => 'true/angka 1 : menunjukan pada template yang di pakai, false/angka 0 : menunjukan bahwa template tidak dipakai'
+            ],
+        ]);
+        $this->forge->createTable('templates_active');
     }
 
     public function down(){
         $this->forge->dropTable('templates');
-        // $this->forge->dropTable('templates_active');
+        $this->forge->dropTable('templates_active');
     }
 }

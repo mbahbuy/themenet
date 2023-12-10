@@ -75,6 +75,26 @@
                       <p class="ml-4">Page View</p>
                     </a>
                   </li>
+                  <li class="nav-item">
+                    <a href="<?= $hal == 'report/page_active' ? 'javascript:void(0)' : url_to('report.page_active') ?>" class="nav-link <?= $hal == 'report/page_active' ? 'active' : '' ?>">
+                      <p class="ml-4">Page Active</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="<?= $hal == 'report/rubrik' ? 'javascript:void(0)' : url_to('report.rubrik') ?>" class="nav-link <?= $hal == 'report/rubrik' ? 'active' : '' ?>">
+                      <p class="ml-4">Rubrik</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="<?= $hal == 'report/tag' ? 'javascript:void(0)' : url_to('report.tag') ?>" class="nav-link <?= $hal == 'report/tag' ? 'active' : '' ?>">
+                      <p class="ml-4">Tag</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="<?= $hal == 'report/top_search' ? 'javascript:void(0)' : url_to('report.top_search') ?>" class="nav-link <?= $hal == 'report/top_search' ? 'active' : '' ?>">
+                      <p class="ml-4">Top Search</p>
+                    </a>
+                  </li>
                 </ul>
               </li>
               <li class="nav-item  <?= strpos($hal, 'preference') !== false ? 'menu-open' : '' ?>">

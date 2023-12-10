@@ -27,7 +27,7 @@ class ArticleController extends BaseController
     {
         $dataRaw = $this->db->table('judul j')
         ->select('u.name AS penulis, u.initial AS inisial, j.judul, j.slug, j.konten_singkat, j.status, j.waktu_status AS publised_at, j.picture AS gambar, c.nama_kategori AS kategori, c.status AS kategori_status, j.created_at AS created_at, COUNT(rj.id_judul) as view')
-        ->join('users u', 'j.user_hash = u.user_hash', 'inner')
+        ->join('users u', 'j.user_id = u.id', 'inner')
         ->join('kategori c', 'j.id_kategori = c.id_kategori', 'left')
         ->join('record_judul rj', 'rj.id_judul = j.id_judul', 'left')
         ->where('j.user_hash', user()->user_hash)

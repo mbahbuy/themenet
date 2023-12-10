@@ -3,25 +3,32 @@
 namespace App\Controllers\backEnd\Report;
 
 use App\Controllers\BaseController;
-use App\Models\{Category};
+// use App\Models\{Category, Searching};
+use config\Database;
 
 class SearchController extends BaseController
 {
-    protected $kategori;
+    protected $db;
 
     public function __construct()
     {
-        $this->kategori = new Category();
-
+        $this->db = Database::connect();
         session();
     }
 
     public function index()
     {
-        return view('dashboard/preference/rubrik', [
-            'title' => 'Rubrik',
-            'hal' => 'preference/rubrik',
-            'data' => $this->kategori->orderBy('id_kategori', 'DESC')->get()->getResult(),
+        $dataRaw = $this->db->table('searching s')
+            ->select('s.keyword, COUNT(*) as times')
+            ->groupBy('s.keyword')
+            ->orderBy('times', 'DESC');
+
+        $data = $dataRaw->get()->getResult();
+
+        return view('dashboard/report/search', [
+            'title' => 'Report Top Search',
+            'hal' => 'report/top_search',
+            'data' => $data,
         ]);
     }
 

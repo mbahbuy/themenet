@@ -3,25 +3,32 @@
 namespace App\Controllers\backEnd\Report;
 
 use App\Controllers\BaseController;
-use App\Models\{Category};
+use config\Database;
+// use App\Models\{Category};
 
 class TagController extends BaseController
 {
-    protected $kategori;
+    protected $db;
 
     public function __construct()
     {
-        $this->kategori = new Category();
-
+        $this->db = Database::connect();
         session();
     }
 
     public function index()
     {
-        return view('dashboard/preference/rubrik', [
-            'title' => 'Rubrik',
-            'hal' => 'preference/rubrik',
-            'data' => $this->kategori->orderBy('id_kategori', 'DESC')->get()->getResult(),
+        $dataRaw = $this->db->table('meta m')
+        ->select('m.meta AS nama, COUNT(rcm.id_meta) AS views')
+        ->join('record_meta rcm', 'rcm.id_meta = m.id_meta', 'left')
+        ->groupBy('nama')
+        ->orderBy('views', 'DESC');
+
+        $data = $dataRaw->get()->getResult();
+        return view('dashboard/report/tag', [
+            'title' => 'Report Tag',
+            'hal' => 'report/tag',
+            'tags' => $data,
         ]);
     }
 

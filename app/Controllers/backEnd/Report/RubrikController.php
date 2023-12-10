@@ -3,25 +3,42 @@
 namespace App\Controllers\backEnd\Report;
 
 use App\Controllers\BaseController;
-use App\Models\{Category};
+// use App\Models\{Category};
+use config\Database;
 
 class RubrikController extends BaseController
 {
-    protected $kategori;
+    protected $db;
 
     public function __construct()
     {
-        $this->kategori = new Category();
-
+        $this->db = Database::connect();
         session();
     }
 
     public function index()
     {
-        return view('dashboard/preference/rubrik', [
-            'title' => 'Rubrik',
-            'hal' => 'preference/rubrik',
-            'data' => $this->kategori->orderBy('id_kategori', 'DESC')->get()->getResult(),
+        $dataRaw = $this->db->table('kategori k')
+            ->select('k.nama_kategori AS nama, COUNT(DISTINCT j.id_judul) AS articles')
+            ->join('judul j', "k.id_kategori = j.id_kategori AND j.status = 'P'", 'left')
+            ->groupBy('nama')
+            ->orderBy('articles', 'DESC');
+
+        $data = $dataRaw->get()->getResult();
+
+        foreach ($data as $row) {
+            $row->views = $this->db->table('record_kategori')
+                ->select('COUNT(*) as count')
+                ->where('id_kategori', $row->id_kategori)
+                ->get()
+                ->getFirstRow()
+                ->count;
+        }
+
+        return view('dashboard/report/rubrik', [
+            'title' => 'Report Rubrik',
+            'hal' => 'report/rubrik',
+            'rubriks' => $data,
         ]);
     }
 
