@@ -19,9 +19,9 @@ class RubrikController extends BaseController
     public function index()
     {
         $dataRaw = $this->db->table('kategori k')
-            ->select('k.nama_kategori AS nama, COUNT(DISTINCT j.id_judul) AS articles')
+            ->select('k.id_kategori, k.nama_kategori AS nama, COUNT(DISTINCT j.id_judul) AS articles')
             ->join('judul j', "k.id_kategori = j.id_kategori AND j.status = 'P'", 'left')
-            ->groupBy('nama')
+            ->groupBy('k.id_kategori, nama')
             ->orderBy('articles', 'DESC');
 
         $data = $dataRaw->get()->getResult();
