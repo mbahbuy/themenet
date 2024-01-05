@@ -1,0 +1,139 @@
+WARNING - 2023-12-24 09:47:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\frontEnd\Home::$pager is deprecated in APPPATH/Controllers/frontEnd/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\frontEnd\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-12-24 09:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-24 09:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-24 09:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-24 09:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-24 09:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-24 09:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-24 10:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-24 10:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-24 10:14:52 --> Call to undefined method App\Models\Title::getFirst
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/backEnd/Report/ActiveController.php(47): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Report\ActiveController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-12-24 10:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-24 10:15:46 --> Attempt to read property "articles" on array
+in APPPATH/Controllers/backEnd/Report/ActiveController.php on line 48.
+ 1 APPPATH/Controllers/backEnd/Report/ActiveController.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Report\ActiveController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-12-24 10:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-24 10:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-24 10:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-24 10:19:05 --> Attempt to read property "articles" on array
+in APPPATH/Controllers/backEnd/Report/ActiveController.php on line 47.
+ 1 APPPATH/Controllers/backEnd/Report/ActiveController.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Report\ActiveController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-12-24 10:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-24 10:19:17 --> Attempt to read property "articles" on array
+in APPPATH/Controllers/backEnd/Report/ActiveController.php on line 47.
+ 1 APPPATH/Controllers/backEnd/Report/ActiveController.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Report\ActiveController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-12-24 10:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-24 10:19:25 --> Attempt to read property "articles" on array
+in APPPATH/Controllers/backEnd/Report/ActiveController.php on line 47.
+ 1 APPPATH/Controllers/backEnd/Report/ActiveController.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Report\ActiveController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-12-24 10:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-24 10:19:27 --> Attempt to read property "articles" on array
+in APPPATH/Controllers/backEnd/Report/ActiveController.php on line 47.
+ 1 APPPATH/Controllers/backEnd/Report/ActiveController.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Report\ActiveController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-12-24 10:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-24 10:20:17 --> mysqli_sql_exception: Unknown column 'articles' in 'field list' in /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Model.php(203): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/BaseModel.php(557): CodeIgniter\Model->doFind()
+#6 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Model.php(219): CodeIgniter\BaseModel->find()
+#7 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/BaseModel.php(588): CodeIgniter\Model->doFindColumn()
+#8 /home/buyung/Documents/Project/CI 4/themenet/app/Controllers/backEnd/Report/ActiveController.php(47): CodeIgniter\BaseModel->findColumn()
+#9 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\backEnd\Report\ActiveController->index()
+#10 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/buyung/Documents/Project/CI 4/themenet/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 /home/buyung/Documents/Project/CI 4/themenet/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#14 {main}
+CRITICAL - 2023-12-24 10:20:17 --> Unknown column 'articles' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(203): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind()
+ 7 SYSTEMPATH/Model.php(219): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH/BaseModel.php(588): CodeIgniter\Model->doFindColumn()
+ 9 APPPATH/Controllers/backEnd/Report/ActiveController.php(47): CodeIgniter\BaseModel->findColumn()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Report\ActiveController->index()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-12-24 10:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-24 10:22:26 --> Call to a member function value() on array
+in APPPATH/Controllers/backEnd/Report/ActiveController.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Report\ActiveController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-12-24 10:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-24 10:22:41 --> Call to undefined method App\Models\Title::value
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/backEnd/Report/ActiveController.php(47): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Report\ActiveController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-12-24 10:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-24 10:23:01 --> Attempt to read property "articles" on array
+in APPPATH/Controllers/backEnd/Report/ActiveController.php on line 47.
+ 1 APPPATH/Controllers/backEnd/Report/ActiveController.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Report\ActiveController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-12-24 10:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-24 10:25:28 --> Attempt to read property "articles" on array
+in APPPATH/Controllers/backEnd/Report/ActiveController.php on line 48.
+ 1 APPPATH/Controllers/backEnd/Report/ActiveController.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\backEnd\Report\ActiveController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/buyung/Documents/Project/CI 4/themenet/public/index.php')
+INFO - 2023-12-24 10:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
